@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Esra/Desktop/python-project/mlflow-tutorial/mlruns/0/8c1214879cb54255a5fe58dc573bf075/artifacts
+end_time: 1663253185918
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: 8c1214879cb54255a5fe58dc573bf075
+run_uuid: 8c1214879cb54255a5fe58dc573bf075
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1663253177886
+status: 3
+tags: []
+user_id: Esra
