@@ -1,0 +1,14 @@
+kind: project
+metadata:
+  name: quick-tutorial-esra
+spec:
+  functions:
+  - url: data-prep.py
+    name: data-prep
+    kind: job
+    image: mlrun/mlrun
+    handler: breast_cancer_generator
+  workflows: []
+  artifacts: []
+  source: ''
+  desired_state: online

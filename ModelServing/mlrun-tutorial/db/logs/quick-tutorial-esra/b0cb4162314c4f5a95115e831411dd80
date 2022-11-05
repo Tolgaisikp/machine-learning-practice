@@ -1,0 +1,28 @@
+> 2022-11-01 11:46:11,274 [info] Sample set not given, using the whole training set as the sample set
+> 2022-11-01 11:46:12,659 [error] Traceback (most recent call last):
+  File "c:\Users\Esra\Desktop\mlrun-tutorial\mlrun-env\lib\site-packages\mlrun\runtimes\local.py", line 426, in exec_from_params
+    val = handler(**kwargs)
+  File "C:\Users\Esra\AppData\Local\Temp\tmplbsh5gek-auto_trainer.py", line 199, in train
+    AutoMLRun.apply_mlrun(
+  File "c:\Users\Esra\Desktop\mlrun-tutorial\mlrun-env\lib\site-packages\mlrun\frameworks\auto_mlrun\auto_mlrun.py", line 491, in apply_mlrun
+    framework, collected_model_file_and_artifact = AutoMLRun._get_framework(
+  File "c:\Users\Esra\Desktop\mlrun-tutorial\mlrun-env\lib\site-packages\mlrun\frameworks\auto_mlrun\auto_mlrun.py", line 285, in _get_framework
+    return get_framework_by_class_name(model=model), {}
+  File "c:\Users\Esra\Desktop\mlrun-tutorial\mlrun-env\lib\site-packages\mlrun\frameworks\auto_mlrun\auto_mlrun.py", line 156, in get_framework_by_class_name
+    from mlrun.frameworks.sklearn import SKLearnModelHandler
+  File "c:\Users\Esra\Desktop\mlrun-tutorial\mlrun-env\lib\site-packages\mlrun\frameworks\sklearn\__init__.py", line 20, in <module>
+    from mlrun.frameworks.sklearn.metric import Metric
+  File "c:\Users\Esra\Desktop\mlrun-tutorial\mlrun-env\lib\site-packages\mlrun\frameworks\sklearn\metric.py", line 23, in <module>
+    from .utils import SKLearnTypes
+  File "c:\Users\Esra\Desktop\mlrun-tutorial\mlrun-env\lib\site-packages\mlrun\frameworks\sklearn\utils.py", line 19, in <module>
+    from .._ml_common import MLTypes, MLUtils
+  File "c:\Users\Esra\Desktop\mlrun-tutorial\mlrun-env\lib\site-packages\mlrun\frameworks\_ml_common\__init__.py", line 16, in <module>
+    from .artifacts_library import MLArtifactsLibrary
+  File "c:\Users\Esra\Desktop\mlrun-tutorial\mlrun-env\lib\site-packages\mlrun\frameworks\_ml_common\artifacts_library.py", line 19, in <module>
+    from .plans import (
+  File "c:\Users\Esra\Desktop\mlrun-tutorial\mlrun-env\lib\site-packages\mlrun\frameworks\_ml_common\plans\__init__.py", line 16, in <module>
+    from .calibration_curve_plan import CalibrationCurvePlan
+  File "c:\Users\Esra\Desktop\mlrun-tutorial\mlrun-env\lib\site-packages\mlrun\frameworks\_ml_common\plans\calibration_curve_plan.py", line 17, in <module>
+    import plotly.graph_objects as go
+ModuleNotFoundError: No module named 'plotly'
+
